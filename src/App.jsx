@@ -1,11 +1,16 @@
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <h1>hi</h1>
+      <div className="counter-div">
+        <h1>Counter</h1>
+        <div className="button-div">
+          <button>+</button>
+          <button>Reset</button>
+          <button>-</button>
+        </div>
+      </div>
     </>
   );
 }
